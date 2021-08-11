@@ -1,24 +1,22 @@
 # Site settings
 title: Seohee Park # site title
 description: >- # site description
-  He's writing in Bahasa about web technology and experience as a journal 
-  for documentation things that he learned, meet him <a href="https://github.com/piharpi" target="_blank" rel="noopener">@github</a>.
+  TBD
 lang: en-US # default lang
-timezone: Asia/Jakarta # set your timezone
+timezone: Asia/Seoul # set your timezone
 image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
-repo: https://github.com/piharpi/jekyll-klise # site repo [optional]
-mode: dark # default theme "dark" | "light"
+repo: https://github.com/eehoeskrap/eehoeskrap.github.io # site repo [optional]
+mode: light # default theme "dark" | "light"
 
 # Profile settings
 author:
   name: Seohee Park # author name
-  bio: >- # tell to the world
-    The minimalist Jekyll theme, light and dark mode support, for running a personal site and blog, 
-    meet Klisé theme at <a href="https://github.com/piharpi/jekyll-klise" target="_blank" rel="noopener">@github</a>.
+  bio: >- # tell to the world <a href="https://github.com/piharpi/jekyll-klise" target="_blank" rel="noopener">@github</a>.
+    AI Research Engineer
   username: eehoeskrap # general username
   github: eehoeskrap # github username
   email: eehoeskrap@email.com # email adress
-  avatar: /assets/img/avatar.jpg # change with your own avatar
+  avatar: /assets/img/SeoheePark.jpg # change with your own avatar
 
 # URL settings
 url: "https://klise.now.sh" #
@@ -58,7 +56,7 @@ jekyll_compose:
     description:
 
 # Homepage limit posts
-number_of_posts: 5
+number_of_posts: 10
 
 # Build settings
 # theme: klise
