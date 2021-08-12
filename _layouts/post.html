@@ -73,8 +73,9 @@ layout: compress
           {% endif %}
         </div>
       </article>
-    
-      <script
+
+      <div>
+        <script
         src="https://utteranc.es/client.js"
         repo="eehoeskrap/comments"
         issue-term="pathname"
@@ -82,7 +83,12 @@ layout: compress
         theme="github-light"
         crossorigin="anonymous"
         async
-      ></script>
+        ></script>
+      </div>
+
+      {% if page.comments %}
+        {% include comments.html %}
+      {% endif %}
 
     </main>
 
