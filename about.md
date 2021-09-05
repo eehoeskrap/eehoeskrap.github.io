@@ -39,23 +39,23 @@ comments: false
 
 
 ### Projects
-##### KT
+##### 🔹 KT
 Developed **AI technologies** using Python and Pytorch, and deployed a model using ONNX and TensorRT.
 - Developed AI traffic solution for [C-ITS](https://fb.watch/7QwYeD7uM0/) including robust object detectors, a Pedestrian Detection System, a Vehicle Detection System, etc. **(2020 ~ Current)**
 - Developed "helmet-wearing detection" issues by researching and developing a human detector, a pose estimator, and a helmet classifier. **(2021 ~ Current)**
 - Researched and developed human detecting, pose estimating, and action/object classifying technologies to perfect GiGAeyes Pro’s "Fall Down" solution and develop "Action Recognition" solutions for businesses. **(2019 ~ 2020)**
 
-##### Personal Projects
+##### 🔹 Personal Projects
 Started a personal project to develop skills with interest in **3D Pose Estimation** and **Action Recognition**.
 - The use of 2D Pose Estimation for action recognition has many difficulties due to the Occlusion Problem. Therefore, [3D Pose Estimation](https://tv.kakao.com/v/418252402) was attempted. In order to solve the jitter, the noise was minimized by filtering the pose. **(2020.12)**
 - Developed a [counting system](https://tv.kakao.com/v/420103143) by classifying push up/down motions based on 2D & 3D pose estimation. **(2021.05)**
 
-##### KETI
+##### 🔹 KETI
 Developed computer vision algorithms using C++ in an Linux environment.
 - Developed a "Skin Lesion Recognition" algorithm by developing hair removal and mole detection functions. **(2018)**
 - Developed a capture program using FLIR’s Spinnaker camera firmware library. **(2018)**
 
-##### Kyonggi University (Graphics & Image Processing Lab)
+##### 🔹 Kyonggi University, Graphics & Image Processing Lab
 Developed several computer vision algorithms using the OpenCV library and C++.
 - A binocular image-based, moving object detection and tracking system for a CCTV environment. **(2016 ~ 2018)**
 - A machine vision based LED panel defect detection system. **(2017 ~ 2018)**
@@ -79,17 +79,17 @@ Developed several computer vision algorithms using the OpenCV library and C++.
 
 
 ### Education
-**[2017.03 ~ 2018.08] Kyonggi University (Suwon, South Korea)**
+**Kyonggi University (2017.03 ~ 2018.08)**
 - Master of Computer Science
 - Computer Graphics & Image Processing Laboratory (2017.03 ~ 2018.06)
 - **Thesis** : [RGB-D 정보를 이용한 객체 탐지 기반 3차원 인간 자세 추정LINK](http://www.riss.kr/search/detail/DetailView.do?p_mat_type=be54d9b8bc7cdb09&control_no=6d539fa305155a27ffe0bdc3ef48d419)
 - **GPA** : 4.50/4.50
 
-**[2013.03 ~ 2017.02] Kyonggi University (Suwon, South Korea)**
+**Kyonggi University (2013.03 ~ 2017.02)**
 - Bachelor of Computer Science
 - Computer Graphics & Image Processing Laboratory (2014.06 ~ 2017.02)
 
-**[2010.03 ~ 2013.02] Maehyang Girls’ Information High School (Suwon, South Korea)**
+**Maehyang Girls’ Information High School (2010.03 ~ 2013.02)**
 - Department of Digital Contents
 - The first time I learned **Image Processing** 💙 through **Visual Basic programming** was a key event that I decided to become **a Computer Vision Researcher** ✨.  
 
