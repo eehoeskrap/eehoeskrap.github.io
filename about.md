@@ -39,23 +39,23 @@ comments: false
 
 
 ### Projects
-##### 🔹 KT
+##### 📌 KT
 Developed **AI technologies** using Python and Pytorch, and deployed a model using ONNX and TensorRT.
 - Developed AI traffic solution for [C-ITS](https://fb.watch/7QwYeD7uM0/) including robust object detectors, a Pedestrian Detection System, a Vehicle Detection System, etc. **(2020 ~ Current)**
 - Developed "helmet-wearing detection" issues by researching and developing a human detector, a pose estimator, and a helmet classifier. **(2021 ~ Current)**
 - Researched and developed human detecting, pose estimating, and action/object classifying technologies to perfect GiGAeyes Pro’s "Fall Down" solution and develop "Action Recognition" solutions for businesses. **(2019 ~ 2020)**
 
-##### 🔹 Personal Projects
+##### 📌 Personal Projects
 Started a personal project to develop skills with interest in **3D Pose Estimation** and **Action Recognition**.
 - The use of 2D Pose Estimation for action recognition has many difficulties due to the Occlusion Problem. Therefore, [3D Pose Estimation](https://tv.kakao.com/v/418252402) was attempted. In order to solve the jitter, the noise was minimized by filtering the pose. **(2020.12)**
 - Developed a [counting system](https://tv.kakao.com/v/420103143) by classifying push up/down motions based on 2D & 3D pose estimation. **(2021.05)**
 
-##### 🔹 KETI
+##### 📌 KETI
 Developed computer vision algorithms using C++ in an Linux environment.
 - Developed a "Skin Lesion Recognition" algorithm by developing hair removal and mole detection functions. **(2018)**
 - Developed a capture program using FLIR’s Spinnaker camera firmware library. **(2018)**
 
-##### 🔹 Kyonggi University, Graphics & Image Processing Lab
+##### 📌 Kyonggi University, Graphics & Image Processing Lab
 Developed several computer vision algorithms using the OpenCV library and C++.
 - A binocular image-based, moving object detection and tracking system for a CCTV environment. **(2016 ~ 2018)**
 - A machine vision based LED panel defect detection system. **(2017 ~ 2018)**
