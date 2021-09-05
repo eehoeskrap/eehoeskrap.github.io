@@ -68,7 +68,6 @@ Developed several computer vision algorithms using the OpenCV library and C++.
 **[2013.03 ~ 2017.02] Kyonggi University (Suwon, South Korea)**
 - Bachelor of Computer Science
 - Computer Graphics & Image Processing Laboratory (2014.06 ~ 2017.02)
-- **GPA** : 3.73/4.50
 
 **[2010.03 ~ 2013.02] Maehyang Girls’ Information High School (Suwon, South Korea)**
 - Department of Digital Contents
