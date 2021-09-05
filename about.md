@@ -82,7 +82,7 @@ Developed several computer vision algorithms using the OpenCV library and C++.
 **Kyonggi University (2017.03 ~ 2018.08)**
 - Master of Computer Science
 - Computer Graphics & Image Processing Laboratory (2017.03 ~ 2018.06)
-- **Thesis** : [RGB-D 정보를 이용한 객체 탐지 기반 3차원 인간 자세 추정LINK](http://www.riss.kr/search/detail/DetailView.do?p_mat_type=be54d9b8bc7cdb09&control_no=6d539fa305155a27ffe0bdc3ef48d419)
+- **Thesis** : [RGB-D 정보를 이용한 객체 탐지 기반 3차원 인간 자세 추정](http://www.riss.kr/search/detail/DetailView.do?p_mat_type=be54d9b8bc7cdb09&control_no=6d539fa305155a27ffe0bdc3ef48d419)
 - **GPA** : 4.50/4.50
 
 **Kyonggi University (2013.03 ~ 2017.02)**
