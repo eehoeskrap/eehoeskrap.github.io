@@ -16,7 +16,9 @@ comments: false
 - **Research Area** : 2D/3D Pose Estimation, Object Detection, Human Action Recognition, Image Classification, Avatar & 3D Reconstruction, Object Tracking, Object Segmentation, TensorRT Optimizer, Model Deployment, **All About Deep Learning and Computer Vision** 💖
 
 
-#
+
+
+
 
 
 ### Work Experience
@@ -31,7 +33,9 @@ comments: false
 - **Computer Vision Engineer**
 
 
-#
+
+
+
 
 
 ### Projects
@@ -58,7 +62,9 @@ Developed several computer vision algorithms using the OpenCV library and C++.
 - An automatic pest-counting system, based on image analysis with Cesco Co., Ltd. **(2016)**
 
 
-#
+
+
+
 
 
 ### Skills
@@ -67,7 +73,9 @@ Developed several computer vision algorithms using the OpenCV library and C++.
 - **Etc.** : ONNX, CUDA, ...
 
 
-#
+
+
+
 
 
 ### Education
@@ -86,7 +94,9 @@ Developed several computer vision algorithms using the OpenCV library and C++.
 - The first time I learned **Image Processing** 💙 through **Visual Basic programming** was a key event that I decided to become **a Computer Vision Researcher** ✨.  
 
 
-#
+
+
+
 
 
 ### Publications
