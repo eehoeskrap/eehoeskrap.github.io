@@ -78,19 +78,19 @@ Developed several computer vision algorithms using the OpenCV library and C++.
 
 ### Publications
 **Journals**
-- Seohee Park, Myunggeun Ji and Junchul Chun, “A Method for 3D Human Pose Estimation based on 2D Keypoint Detection using RGB-D information”, Journal of Internet Computing and Services(JICS), 2018. 12. [KCI](http://www.jics.or.kr/digital-library/15446)
-- Seohee Park, Myunggeun Ji and Junchul Chun, “2D Human Pose Estimation based on Object Detection using RGB-D information", KSII Transactions on Internet and Information Systems(TIIS), 2018.02. [SCIE](http://itiis.org/digital-library/21684)
+- Seohee Park, Myunggeun Ji and Junchul Chun, “A Method for 3D Human Pose Estimation based on 2D Keypoint Detection using RGB-D information”, Journal of Internet Computing and Services(JICS), 2018. 12. **[KCI](http://www.jics.or.kr/digital-library/15446)**
+- Seohee Park, Myunggeun Ji and Junchul Chun, “2D Human Pose Estimation based on Object Detection using RGB-D information", KSII Transactions on Internet and Information Systems(TIIS), 2018.02. **[SCIE](http://itiis.org/digital-library/21684)**
 - Seohee Park and Junchul Chun, "인간 행위 인식을 위한 비전 기반 인간 자세 추정에 관한 연구", 인터넷정보학회지, Vol. 18, No. 2, pp. 19-25, 2017.12.
-- Seohee Park and Junchul Chun, “A Method for Body Keypoint Localization based on Object Detection using the RGB-D information”, Journal of Internet Computing and Services(JICS), 2017. 12. [KCI](http://www.jics.or.kr/digital-library/3252)
-- Seohee Park and Junchul Chun, "A Robust Object Detection and Tracking Method using RGB-D Model", Journal of Internet Computing and Services (JICS), 2017.08. [KCI](http://www.jics.or.kr/digital-library/1312)
+- Seohee Park and Junchul Chun, “A Method for Body Keypoint Localization based on Object Detection using the RGB-D information”, Journal of Internet Computing and Services(JICS), 2017. 12. **[KCI](http://www.jics.or.kr/digital-library/3252)**
+- Seohee Park and Junchul Chun, "A Robust Object Detection and Tracking Method using RGB-D Model", Journal of Internet Computing and Services (JICS), 2017.08. **[KCI](http://www.jics.or.kr/digital-library/1312)**
 - Seohee Park, and Junchul Chun, "CCTV 영상의 동적 객체 탐지 및 추적 기술 동향", 인터넷정보학회지, Vol. 18, No. 1, pp. 39-43, 2017.06.
 
 **Conferences**
 - Seohee Park and Junchul Chun, "3D Human Pose Estimation from 2D Joint Detection via Deep Learning", Proceedings of 13th APIC-IST 2018, pp. 305-306, 2018.06.
 - Seohee Park, Myunggeun Ji, etal., "머신 비전 기반 LED 판넬 결함 자동 검출 시스템", 한국인터넷정보학회 춘계학술발표대회 논문집 (제19권 1호), 2017.04.
-- Seohee Park, Myunggeun Ji, Junchul Chun, "컨볼루션 신경망을 통한 2차원 키포인트 탐지 기반 3차원 인간 자세 추정 방법", 한국인터넷정보학회 춘계학술발표대회 논문집 (제19권 1호), 2017.04. [최우수논문상]
+- Seohee Park, Myunggeun Ji, Junchul Chun, "컨볼루션 신경망을 통한 2차원 키포인트 탐지 기반 3차원 인간 자세 추정 방법", 한국인터넷정보학회 춘계학술발표대회 논문집 (제19권 1호), 2017.04. **[최우수논문상]**
 - Seohee Park, Myunggeun Ji, Junchul Chun, and Byoungdai Lee, "A Defect Detection Method of LED panel based on Image Analysis", Proceedings of the 9th International Conference on Internet (ICONI 2017), pp. 129-130, 2017.12.18.
 - Seohee Park, Myunggeun Ji, etal., "영상분석기반 LED 패널 결함 검출 시스템", 한국인터넷정보학회 추계학술발표대회 논문집 (제18권 2호), pp. 141-142, 2017.11.
-- Seohee Park and Junchul Chun, "3D CCTV based Object Detection and Tracking using RGB-D information", Proceedings of 12th APIC-IST 2017, pp. 274-276, 2017.06.[Outstanding Paper Award]
-- Seohee Park and Junchul Chun, "3차원 CCTV 기반 이동 객체의 자동 탐지 및 추적에 관한 연구", 한국인터넷정보학회 춘계학술발표대회 논문집 (제18권 1호), pp. 123-124, 2017.04. [우수논문상]
-- Seohee Park and Junchul Chun, "3차원 CCTV 기반 이동 객체의 자동 추적 방법", 한국인터넷정보학회 추계학술발표대회 논문집 (17권 2호), pp. 295-296, 2016.11. [학부 최우수논문상]
+- Seohee Park and Junchul Chun, "3D CCTV based Object Detection and Tracking using RGB-D information", Proceedings of 12th APIC-IST 2017, pp. 274-276, 2017.06. **[Outstanding Paper Award]**
+- Seohee Park and Junchul Chun, "3차원 CCTV 기반 이동 객체의 자동 탐지 및 추적에 관한 연구", 한국인터넷정보학회 춘계학술발표대회 논문집 (제18권 1호), pp. 123-124, 2017.04. **[우수논문상]**
+- Seohee Park and Junchul Chun, "3차원 CCTV 기반 이동 객체의 자동 추적 방법", 한국인터넷정보학회 추계학술발표대회 논문집 (17권 2호), pp. 295-296, 2016.11. **[학부 최우수논문상]**
