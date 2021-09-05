@@ -43,7 +43,7 @@ comments: false
 Developed **AI technologies** using Python and Pytorch, and deployed a model using ONNX and TensorRT.
 - Developed AI traffic solution for [C-ITS](https://fb.watch/7QwYeD7uM0/) including robust object detectors, a Pedestrian Detection System, a Vehicle Detection System, etc. **(2020 ~ Current)**
 - Developed "helmet-wearing detection" issues by researching and developing a human detector, a pose estimator, and a helmet classifier. **(2021 ~ Current)**
-- Researched and developed human detecting, pose estimating, and action/object classifying technologies to perfect GiGAeyes Pro’s "Fall Down" solution and develop "Action Recognition" solutions for businesses. **(2019 ~ 2020)**
+- Researched and developed human detecting, pose estimating, and action/object classifying technologies to develop "Action Recognition" solutions for businesses. **(2019 ~ 2020)**
 
 ##### 📌 Personal Projects
 Started a personal project to develop skills with interest in **3D Pose Estimation** and **Action Recognition**.
