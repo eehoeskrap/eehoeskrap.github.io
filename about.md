@@ -16,6 +16,9 @@ comments: false
 - **Research Area** : 2D/3D Pose Estimation, Object Detection, Human Action Recognition, Image Classification, Avatar & 3D Reconstruction, Object Tracking, Object Segmentation, TensorRT Optimizer, Model Deployment, **All About Deep Learning and Computer Vision** 💖
 
 
+#
+
+
 ### Work Experience
 **KT (Seoul, South Korea)** 
 - 2018.12 ~ Current 🏃‍♀️
@@ -26,6 +29,9 @@ comments: false
 - 2018.07 ~ 2018.12
 - Human Care System Research Center
 - **Computer Vision Engineer**
+
+
+#
 
 
 ### Projects
@@ -52,10 +58,16 @@ Developed several computer vision algorithms using the OpenCV library and C++.
 - An automatic pest-counting system, based on image analysis with Cesco Co., Ltd. **(2016)**
 
 
+#
+
+
 ### Skills
 - **Language** : Python, C/C++
 - **Library** : Pytorch, TensorRT, OpenCV, DeepStream, TensorFlow, TensorFlow Lite
 - **Etc.** : ONNX, CUDA, ...
+
+
+#
 
 
 ### Education
@@ -72,6 +84,9 @@ Developed several computer vision algorithms using the OpenCV library and C++.
 **[2010.03 ~ 2013.02] Maehyang Girls’ Information High School (Suwon, South Korea)**
 - Department of Digital Contents
 - The first time I learned **Image Processing** 💙 through **Visual Basic programming** was a key event that I decided to become **a Computer Vision Researcher** ✨.  
+
+
+#
 
 
 ### Publications
