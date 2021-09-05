@@ -59,18 +59,18 @@ Developed several computer vision algorithms using the OpenCV library and C++.
 
 
 ### Education
-**Kyonggi University (Suwon, South Korea), 2017.03 ~ 2018.08**
+**[2017.03 ~ 2018.08] Kyonggi University (Suwon, South Korea)**
 - Master of Computer Science
 - Computer Graphics & Image Processing Laboratory (2017.03 ~ 2018.06)
 - **Thesis** : [RGB-D 정보를 이용한 객체 탐지 기반 3차원 인간 자세 추정LINK](http://www.riss.kr/search/detail/DetailView.do?p_mat_type=be54d9b8bc7cdb09&control_no=6d539fa305155a27ffe0bdc3ef48d419)
 - **GPA** : 4.50/4.50
 
-**Kyonggi University (Suwon, South Korea), 2013.03 ~ 2017.02**
+**[2013.03 ~ 2017.02] Kyonggi University (Suwon, South Korea)**
 - Bachelor of Computer Science
 - Computer Graphics & Image Processing Laboratory (2014.06 ~ 2017.02)
 - **GPA** : 3.73/4.50
 
-**Maehyang Girls’ Information High School (Suwon, South Korea), 2010.03 ~ 2013.02**
+**[2010.03 ~ 2013.02] Maehyang Girls’ Information High School (Suwon, South Korea)**
 - Department of Digital Contents
 - The first time I learned **Image Processing** 💙 through **Visual Basic programming** was a key event that I decided to become **a Computer Vision Researcher** ✨.  
 
