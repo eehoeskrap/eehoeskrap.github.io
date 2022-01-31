@@ -91,7 +91,7 @@ Developed several computer vision algorithms using the OpenCV library and C++.
 
 **Maehyang Girls’ Information High School (2010.03 ~ 2013.02)**
 - Department of Digital Contents
-- The first time I learned **Image Processing** 💙 through **Visual Basic programming** was a key event that I decided to become **a Computer Vision Researcher** ✨.  
+- The first time I learned Image Processing through Visual Basic programming was a key event that I decided to become a Computer Vision Researcher.  
 
 
 
