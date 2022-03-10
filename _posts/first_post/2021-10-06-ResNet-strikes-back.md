@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'ResNet strikes back: An improved training procedure in timm 논문 리뷰'
-date: '2022-03-11 01:10:00 +0700'
+date: '2021-10-06 01:10:00 +0700'
 tags:
   - Object Detection
   - ResNet
