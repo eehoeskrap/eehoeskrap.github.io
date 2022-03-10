@@ -12,7 +12,7 @@ comments: false
 - **Email** : eehoeskrap@gmail.com
 - **Blog** : [http://eehoeskrap.tistory.com](http://eehoeskrap.tistory.com/)
 - **Github** : [https://github.com/eehoeskrap](https://github.com/eehoeskrap)
-- **Current Position** :  AI Researh Engineer
+- **Current Position** :  AI Research Engineer
 - **Research Area** : 2D/3D Pose Estimation, Object Detection, Human Action Recognition, Image Classification, Avatar & 3D Reconstruction, Object Tracking, Object Segmentation, TensorRT Optimizer, Model Deployment, **All About Deep Learning and Computer Vision** 💖
 
 
