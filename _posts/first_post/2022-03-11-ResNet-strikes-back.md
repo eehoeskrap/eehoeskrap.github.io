@@ -4,8 +4,6 @@ title: 'ResNet strikes back: An improved training procedure in timm'
 date: '2022-03-11 01:10:00 +0700'
 tags:
   - Image Classification
-  - ResNet
-  - timm
 description: test description
 categories: jekyll update
 published: true
@@ -197,4 +195,3 @@ Crop-ratio는 0.875를 사용합니다. 최근 연구자들은 이 매개변수�
 [timm-github]: https://github.com/rwightman/pytorch-image-models
 [Ross-Wightman-github]: https://github.com/rwightman
 [pytorch-image-models github]: https://github.com/rwightman/pytorch-image-models
-
