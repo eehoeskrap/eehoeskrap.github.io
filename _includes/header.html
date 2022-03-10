@@ -132,6 +132,11 @@
   {% else %}
   <meta name="twitter:image" content="{{ site.image | absolute_url }}" />
   {% endif %} {% feed_meta %}
+  
+  {% if page.use_math %}
+  {% include mathjax_support.html %}
+  {% endif %}
+  
   <link
     rel="apple-touch-icon"
     sizes="180x180"
