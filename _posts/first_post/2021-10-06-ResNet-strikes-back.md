@@ -27,7 +27,7 @@ Introduction
 
 이미지 분류 분야 등에서 모델의 성능은 다음과 같이 정의됩니다. 
 
-$ accuracy(model)=f(A, \tau , N) $
+$$ accuracy(model)=f(A, \tau , N) $$
 
 여기서 $$ A $$는 아키텍처 설계(architecture design), $$ T $$는 하이퍼파라미터(hyperparameters)같은 학습 설정(tranining setting), $$ N $$은 측정 노이즈(measurement noise)를 뜻합니다. 여기서 일반적으로 하이퍼파라미터 집합 또는 방법 선택에서 최대값을 선택할 때 발생하는 과적합(overfitting)도 포함됩니다. 또한 다른 시드(seeds)로 표준 편차(standard deviation)을 측정하거나, 별도의 평가 데이터 세트(evaluation dataset)을 사용하거나, 전이 작업(transfer tasks)에 대한 모델을 평가하는 것과 같이 노이즈 $$ N $$을 완화시키기 위한 몇 가지 사례들이 존재합니다. 
 
