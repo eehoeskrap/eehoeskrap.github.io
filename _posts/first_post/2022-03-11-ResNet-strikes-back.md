@@ -141,10 +141,54 @@ validation의 정확도를 과대평가하는 것을 방지하기 위해 explora
 
 
 ### Transfer Learning
-표 5에서는 서로 다른 pre-training 절차를 사용하여 7개의 데이터 세트에 대한 transfer learning 학습 성능을 보여주고, 기본 PyTorch pre-training 과 비교합니다. 각 pre-training 에 대해 DeiT에 사용된 fine-turning 절차와 동일한 절차를 사용합니다. 각 데이터세트에 대해 fine-tuning 하이퍼파라미터를 조정합니다. 이러한 fine-tuning은 CIFAR 또는 Stanford Cars와 같은 특정 데이터 세트의 성능 차이를 완화하는 경향이 있음을 발견하였습니다. 전반적으로 A1의 학습 방법은 downstream 작업에서 최상의 성능으로 이어지지만, PyTorch 기본 값과 A2의 성능은 유사한 경향이 있는 반면 ImageNet-val 및 v2에서는 훨씬 더 우수했습니다. A3은 160x160의 낮은 해상도와 관련 있는 downstream task에서 좋지 않은 결과를 보여줍니다. 
+표 5에서는 서로 다른 pre-training 절차를 사용하여 7개의 데이터 세트에 대한 transfer learning 학습 성능을 보여주고, 기본 PyTorch pre-training 과 비교합니다. 
+
+![Table 5](/assets/img/paper_images/paper_post_1/ResNet strikes back table5.PNG)
+
+각 pre-training 에 대해 DeiT에 사용된 fine-turning 절차와 동일한 절차를 사용합니다. 각 데이터세트에 대해 fine-tuning 하이퍼파라미터를 조정합니다. 이러한 fine-tuning은 CIFAR 또는 Stanford Cars와 같은 특정 데이터 세트의 성능 차이를 완화하는 경향이 있음을 발견하였습니다. 전반적으로 A1의 학습 방법은 downstream 작업에서 최상의 성능으로 이어지지만, PyTorch 기본 값과 A2의 성능은 유사한 경향이 있는 반면 ImageNet-val 및 v2에서는 훨씬 더 우수했습니다. A3은 160x160의 낮은 해상도와 관련 있는 downstream task에서 좋지 않은 결과를 보여줍니다. 
 
 ### Comparing architectures and training procedures: a show-case of contradictory conclusions
 이 섹션에서는 동일한 학습 절차 하에 두 모델을 비교하는 것이 얼마나 어려운지, 또는 반대로 다른 절차를 단일 모델과 비교하는 것이 얼마나 어려운지를 설명하게 됩니다. ResNet-50 및 DeiT-S로 설명합니다. 후자의 방식은 기본적으로 ResNet-50과 거의 동일한 수의 파라미터를 갖도록 매개변수화 된 ViT 입니다. 각 모델에 대해 동일한 epoch 300 학습 일정과 동일한 batch size로 imagenet-val에서 성능을 극대화하기 위한 절차를 최적화 하기 위해 상당한 노력을 했습니다. 이러한 제약 하에 ResNet-50을 위해 설계한 최고의 학습 절차는 A2 입니다. 본 논문에서는 DeiT-S를 위한 학습 절차를 T2로 나타냅니다. 이 학습 절차는 DeiT-S에 대해 처음 제안된 것 보다 Imagenet-val에서 훨씬 나은 성능을 달성합니다. (80.4% versus 79.8%)
+
+![ResNet-50 vs DeiT-S](/assets/img/paper_images/paper_post_1/ResNet strikes back DeiT.PNG)
+
+즉, A2 학습 방법을 통해 ResNet-50은 DeiT-S 보다 우수하며, T2 학습으로 DeiT-S는 ResNet-50 보다 낫습니다. 
+
+
+## Ablations
+
+이 섹터에서는 하이퍼 파라미터 또는 구성요소 선택에 대한 몇 가지 ablation 을 제공합니다. 일부 수정된 사항은 올바르게 작동하기 위해 여러 다른 파라미터들을 다시 조정해야 하므로 개별적으로 완화하기 힘듭니다. 특히 하이퍼 파리마터와 강하게 상호작용하는 옵티마이저가 특히 그렇습니다. 자세한 사항은 Appendix B를 참고하는 것이 좋을 듯 합니다. 
+
+### Main ingredients and hyper-parameters. 
+
+표 6에서는 주요 구성요소들의 ablation을 제공합니다. 학습률은 학습에 중요한 영향을 미치며 $5.10^{-3}$ 값은 최상의 성능을 달성합니다. 그러나 이를 더 증가시키면 분산의 위험이 커질 수 있습니다. 일반적으로 weight decay 는 [0.02, 0.03] 범위에서 이루어집니다. 
+
+![Table 6](/assets/img/paper_images/paper_post_1/ResNet strikes back table6.PNG)
+
+손실 함수는 BCE를 사용하는 방식에서 vanilla CE 손실을 사용하게 되면 성능이 크게 저하됩니다. 본 논문에서 말한 것과 같이 BCE의 유연성을 사용하여 Mixup/Cutmix를 합계가 1인 확률을 적용하는 선택과 반대로 multi class 1 vs all classification 문제를 활성화하는 것으로 간주합니다. 확률이 1이 되도록 하는 경우 표 8에서 보고된 것과 같이 약간 더 낮은 정확도를 얻습니다. 그래서 BCE가 CE보다 반드시 낫다는 결론은 짓지 않습니다. 하지만 이러한 손실함수를 사용함으로써 가장 높은 정확도를 달성하게 됩니다. 
+
+Repeated augmentation은 다른 하이퍼 파라미터와 복잡한 상호작용을 하게 됩니다. 학습 일정이 A3과 같이 짧거나 Mixup 매개변수의 값이 더 높은 경우에서 어떤 경우는 중립적인 결과를 보여주거나, 좋지 않은 결과를 보여준다는 것을 발견했습니다. 그래서 이는 이해가 되지 않는 부분이 있습니다. 그래서 이러한 증강은 A1 및 A2에 포함하는 것이 가장 좋았습니다.  
+
+![Table 7](/assets/img/paper_images/paper_post_1/ResNet strikes back table7.PNG)
+
+Stochastic Depth 및 Smoothing 같은 경우 A1 및 A2에 포함시켰습니다. label smoothing은 epoch 300에서 다른 하이퍼 파라미터와 다른 구성요소들이 고정된 상태에서는 효과적이지 않습니다. 
+
+Augmentation은 몇 가지 매개변수를 수정할 때 증강의 역할을 보여줍니다. 
+
+![Table 8](/assets/img/paper_images/paper_post_1/ResNet strikes back table8.PNG)
+
+Crop-ratio는 0.875를 사용합니다. 최근 연구자들은 이 매개변수에 대해 더 큰 값을 고려하기도 합니다. 표 9를 참고하시면 좋을 듯 합니다. 
+
+![Table 9](/assets/img/paper_images/paper_post_1/ResNet strikes back table9.PNG)
+
+본 논문에서는 해상도 224x224에서의 성능을 주로 분석하지만, 더 큰 해상도에서도 모델을 평가합니다. 그림 4에 자세히 명시되어 있습니다. 여기서 A1과 A2로 학습된 모델이 더 높은 해상도에서 사용될 때 더 나은 성능을 가진다는 것을 보여줍니다. 
+
+![Figure 4](/assets/img/paper_images/paper_post_1/ResNet strikes back figure4.PNG)
+
+
+## Conclusion
+
+결론입니다. 본 논문에서는 vanilla ResNet-50에 대한 새로운 학습 절차들을 제안했습니다. 새로운 구성요소들을 통합하였고, 다양한 리소스 제약 하에 다양한 학습 방법들을 탐구하기 위해 상당한 노력들을 했습니다. 그 결과 이 모델을 학습하기 위한 SOTA 기술을 확립했습니다. 하지만 이러한 방법이 보편적이라고는 하지 않는다고 하네요. 모델과 학습 하는 방법은 반드시 같이 고려되어 최적화 해야 한다고 주장하고 있습니다. 🙂
 
 
 
