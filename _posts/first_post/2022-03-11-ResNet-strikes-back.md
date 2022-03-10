@@ -14,7 +14,7 @@ use_math: true
 ---
 
 
-블로그 첫 글로 무슨 글을 쓸지 고민 하다가 논문 리뷰를 하기로 하고, 또 무슨 논문을 리뷰할까 찾아보다가 페이스북에서 **ResNet strikes back: An improved training procedure in timm** 이라는 논문이 나왔다는 게시글을 보고 논문을 살펴보았습니다. 
+블로그 첫 글로 무슨 글을 쓸지 고민 하다가 논문 리뷰를 하기로 하고, 또 무슨 논문을 리뷰할까 찾아보다가 페이스북에서 **[ResNet strikes back: An improved training procedure in timm]** 이라는 논문이 나왔다는 게시글을 보고 논문을 살펴보았습니다. 
 
 이 논문은 [pytorch-image-models github] (a.k.a timm)의 원작자인 Ross Wightman의 논문입니다. [Ross-Wightman-github] 에 들어가보니 소개글에 아래와 같이 적혀있었습니다. 개인적으로 깊이 감명 받았습니다. 🤩
 
@@ -193,6 +193,8 @@ Crop-ratio는 0.875를 사용합니다. 최근 연구자들은 이 매개변수�
 
 
 
+[ResNet strikes back: An improved training procedure in timm]: https://arxiv.org/abs/2110.00476
 [timm-github]: https://github.com/rwightman/pytorch-image-models
 [Ross-Wightman-github]: https://github.com/rwightman
 [pytorch-image-models github]: https://github.com/rwightman/pytorch-image-models
+
