@@ -1,7 +1,6 @@
 # Site settings
 title: Seohee Park # site title
-description: >- # site description
-  TBD
+description: # site description
 lang: en-US # default lang
 timezone: Asia/Seoul # set your timezone
 image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
@@ -14,9 +13,12 @@ author:
   bio: >- # tell to the world <a href="https://github.com/piharpi/jekyll-klise" target="_blank" rel="noopener">@github</a>.
     AI Research Engineer
   username: eehoeskrap # general username
-  github: eehoeskrap # github username
-  email: eehoeskrap@email.com # email adress
+  #  github: eehoeskrap # github username
+  #  email: eehoeskrap@email.com # email adress
   avatar: /assets/img/SeoheePark.jpg # change with your own avatar
+  social-github: eehoeskrap # add your Github handle
+  social-linkedin: eehoeskrap # add your Linkedin handle
+  social-email: eehoeskrap@gmail.com # add your Email address
 
 # URL settings
 url: "http://eehoeskrap.github.io" #
