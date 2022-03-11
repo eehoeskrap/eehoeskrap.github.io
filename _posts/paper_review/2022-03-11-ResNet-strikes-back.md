@@ -4,7 +4,7 @@ title: 'ResNet strikes back: An improved training procedure in timm'
 date: '2022-03-11 01:10:00 +0700'
 tags:
   - Image Classification
-description: test description
+description: ResNet strikes back 논문 리뷰
 categories: jekyll update
 published: true
 comments: true
