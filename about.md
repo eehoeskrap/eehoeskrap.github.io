@@ -110,8 +110,8 @@ Developed several computer vision algorithms using the OpenCV library and C++.
 
 **Conferences**
 - Seohee Park and Junchul Chun, **"3D Human Pose Estimation from 2D Joint Detection via Deep Learning"**, Proceedings of 13th APIC-IST 2018, pp. 305-306, 2018.06.
-- Seohee Park, Myunggeun Ji, etal., **"머신 비전 기반 LED 판넬 결함 자동 검출 시스템"**, 한국인터넷정보학회 춘계학술발표대회 논문집 (제19권 1호), 2017.04.
-- Seohee Park, Myunggeun Ji, Junchul Chun, **"컨볼루션 신경망을 통한 2차원 키포인트 탐지 기반 3차원 인간 자세 추정 방법"**, 한국인터넷정보학회 춘계학술발표대회 논문집 (제19권 1호), 2017.04. **최우수논문상** 🎉
+- Seohee Park, Myunggeun Ji, etal., **"머신 비전 기반 LED 판넬 결함 자동 검출 시스템"**, 한국인터넷정보학회 춘계학술발표대회 논문집 (제19권 1호), 2018.04.
+- Seohee Park, Myunggeun Ji, Junchul Chun, **"컨볼루션 신경망을 통한 2차원 키포인트 탐지 기반 3차원 인간 자세 추정 방법"**, 한국인터넷정보학회 춘계학술발표대회 논문집 (제19권 1호), 2018.04. **최우수논문상** 🎉
 - Seohee Park, Myunggeun Ji, Junchul Chun, and Byoungdai Lee, **"A Defect Detection Method of LED panel based on Image Analysis"**, Proceedings of the 9th International Conference on Internet (ICONI 2017), pp. 129-130, 2017.12.18.
 - Seohee Park, Myunggeun Ji, etal., **"영상분석기반 LED 패널 결함 검출 시스템"**, 한국인터넷정보학회 추계학술발표대회 논문집 (제18권 2호), pp. 141-142, 2017.11.
 - Seohee Park and Junchul Chun, **"3D CCTV based Object Detection and Tracking using RGB-D information"**, Proceedings of 12th APIC-IST 2017, pp. 274-276, 2017.06. **Outstanding Paper Award** 🎉
