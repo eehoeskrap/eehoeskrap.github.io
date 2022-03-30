@@ -1,6 +1,6 @@
 ---
 title: Seohee Park
-permalink: /about/
+permalink: /
 layout: page
 excerpt: Curriculum vitae
 comments: false
