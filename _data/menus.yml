@@ -1,4 +1,4 @@
-- title: About
+- title: Home
   url: /
   external: false
 
@@ -6,9 +6,9 @@
 #   url: /archive/
 #   external: false
 
-# - title: About
-#   url: /about/
-#   external: false # set true if you using external link, see below
+- title: About
+  url: /about/
+  external: false # set true if you using external link, see below
 
 - title: Github
   url: https://github.com/eehoeskrap
