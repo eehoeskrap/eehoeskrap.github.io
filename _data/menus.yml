@@ -1,10 +1,10 @@
-- title: home
+- title: temp
   url: /
   external: false
 
-- title: archive
-  url: /archive/
-  external: false
+# - title: archive
+#   url: /archive/
+#   external: false
 
 - title: about
   url: /about/
