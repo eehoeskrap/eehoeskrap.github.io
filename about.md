@@ -22,8 +22,13 @@ comments: false
 
 
 ### Work Experience
+
+**NAVER Z (Seongnam, South Korea)** 
+- 2022.05 ~ Current 🏃‍♀️
+- **Machine Learning Engineer**
+
 **KT (Seoul, South Korea)** 
-- 2018.12 ~ Current 🏃‍♀️
+- 2018.12 ~ 2022.05 🏃‍♀️
 - Institute of Convergence Technology 
 - **AI Research Engineer**
 
