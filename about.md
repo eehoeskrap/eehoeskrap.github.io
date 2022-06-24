@@ -25,10 +25,10 @@ comments: false
 
 **NAVER Z (Seongnam, South Korea)** 
 - 2022.05 ~ Current 🏃‍♀️
-- **Machine Learning Engineer**
+- **AI Research Engineer**
 
 **KT (Seoul, South Korea)** 
-- 2018.12 ~ 2022.05 🏃‍♀️
+- 2018.12 ~ 2022.05
 - Institute of Convergence Technology 
 - **AI Research Engineer**
 
